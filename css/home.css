@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor {
+    max-width: 960px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block h2 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.block p {
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+}
+
+.block.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax.cover-1 {
+    background-image: url(../images/ImagenesParallax/2.png);
+}
+
+.parallax.cover-2 {
+    background-image: url(../images/ImagenesParallax/1.png);
+}
+
+.parallax.cover-3 {
+    background-image: url(../images/ImagenesParallax/5.png);
+}
+
+.github {
+    width: 30px;
+    height: 30px;
+}
+
+@media (width <= 1300px){
+    .block h1 {
+        font-size: 60px;
+        line-height: 100px;
+    }
+
+    .block h2 {
+        font-size: 35px;
+    }
+
+    .block p {
+        font-size: 25px;
+    }
+}
+
+@media (width <= 680px){
+    .block h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .block h2 {
+        font-size: 25px;
+    }
+
+    .block p {
+        font-size: 15px;
+    }
+}

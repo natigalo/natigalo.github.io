@@ -1,0 +1,29 @@
+.main-container {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 50pt;
+    color: #389742;
+    border-left-color: black;
+}
+
+.filters {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (width <=1000px) {
+    .filters>div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
